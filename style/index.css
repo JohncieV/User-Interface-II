@@ -42,11 +42,12 @@ h1{
 }
 .button{
     width: 20px;
-    border: 2px solid #F272D0;
+    border: 2px solid rgb(73, 71, 73);
     padding: 1%;
-    color: #F2A2DD;
-    background-color: #f7f7f7;
-    line-height: 150px;
+    color: rgb(54, 49, 53);
+    background-color: #dbdbdb;
+    line-height: 175px;
+    letter-spacing: 2.5px;
 }
 #navi{
     text-align: center;
@@ -77,7 +78,9 @@ header{
 #desk{
     width: 100%;
     max-height: 40%;
+    border: 2px solid rgb(75, 74, 74)
 }
+/* These are the 4 pics and text styles */
 #pic-container{
     margin: 3%;
     max-width: 100%;
@@ -86,6 +89,9 @@ header{
 #guitar, #tracks, #train, #bridge, #image-text{
     width: 17%;
     height: 500px;
+}
+#guitar, #tracks, #train, #bridge{
+    border: 2px solid black  
 }
 .pics{
     display: flex;
@@ -103,14 +109,35 @@ footer{
 }   
 #footer{
     border: solid 1px black;
-    padding: 5% 5%;
+    padding: 2% 2%;
     background-color:#538EA6;
     border: 2px solid #244E73;
 }
 #contact-button{
     width: 28px;
-    border: 2px solid #F272D0;
-    padding: 2%;
-    color: #F2A2DD;
-    background-color: #f7f7f7;
+    border: 2px solid black;
+    padding: 1%;
+    color: black;
+    background-color:  #dbdbdb;
+    font-family: cursive;
+    font-size: 22px;
+}
+#social-text{
+    font-family: cursive;
+    font-size: 30px;
+    margin-top: 6%;
+}
+.facebook, .instagram, .github{
+    line-height: 200px;
+    letter-spacing: 2.5px;
+    border: 3px solid  rgba(1, 22, 34, 0.61);
+    color: black;
+    background-color:#dbdbdb;
+    font-size: 20px;
+    font-family: cursive;
+    margin: 9px;
+}
+#social-container{
+    display: flex;
+    justify-content: space-around;
 }
