@@ -140,12 +140,69 @@ footer{
 }
 /* Media Query 800px*/
 @media(max-width:800px){
-    #social-container{
-        display: flex;
-        justify-content: stretch;
+    #guitar, #tracks, #train, #bridge, #image-text{
+        line-height: 97%;
+        width: 19%;
     }
     #social-text{
-        margin-top: 1%;
-
+        font-size: 2.0rem;
+        line-height: 7.4rem;
+    }
+    .facebook, .instagram, .github{
+        line-height: 10rem;
+    }
+    #image-text{
+        font-size: 1.5rem;
+        margin: 2.0%;
+    }
+    header{
+        line-height: 400%;
     }
 }
+/* Media Query 500px */
+@media(max-width:500px){
+    /* pics and text */
+    #guitar, #tracks, #train, #bridge{
+       width: 18%;
+    }
+    #image-text{
+        margin: 0rem;
+        font-size: 1.0rem;
+        padding-left: 0rem;    
+    }
+    #pic-container{
+        margin: 3%;
+        max-width: 100%;
+        max-height: 100%;
+        display: flex;
+        justify-content: space-around;
+    }
+    /* Header */
+    h1{
+        font-size: 5rem;
+    }
+    header{
+        font-size: 2.5rem;
+        line-height: 200%;
+    }
+    #intro{
+        font-size: 1.3rem;
+    }
+    /* footer */
+    #contact-button{
+        width: 20rem;
+        padding: 1%;
+        font-size: 1.5rem;
+        line-height: -4%;
+    }
+    #social-text{
+        font-family: cursive;
+        font-size: 1.6rem;
+        margin-top: 6%;
+    }
+    .facebook, .instagram, .github{
+        line-height: 8rem;
+        letter-spacing: .3rem;
+        font-size: 1.1rem;
+        margin: .5rem;
+    }
